@@ -10,8 +10,11 @@ function Header() {
     <div>
       <S.HeaderContainer>
         <S.HeaderLogo>
-          <img src={"https://i.imgur.com/7I9Was5.png"} alt="" />
+          <Link to="/">
+            <img src={"https://i.imgur.com/7I9Was5.png"} alt="" />
+          </Link>
         </S.HeaderLogo>
+
         <S.HeaderOptionAddress>
           <LocationOnIcon />
           <S.HeaderOption>
